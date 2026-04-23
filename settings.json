@@ -1,95 +1,68 @@
 {
-  // Установить собственный шрифт и его размеры
+  // Шрифт и курсор
   "editor.fontFamily": "'FiraCode Nerd Font', 'bold', bold",
-  "editor.fontSize": 16,
+  "editor.fontSize": 14,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.cursorBlinking": "solid",
 
-  // Установить иконки и настроить их
-  "workbench.iconTheme": "bearded-icons",
-  "workbench.tree.indent": 14,
+  // Табы и отступы
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
 
-  // Запрашивать подтверждение на удаление и Drag&Drop
-  "explorer.confirmDragAndDrop": true,
-  "explorer.confirmDelete": true,
-
-  // Убираем виджет справа для скролла
+  // Внешний вид редактора (миникарта, линейки, скролл)
   "editor.scrollbar.horizontal": "hidden",
-  "workbench.colorTheme": "Bearded Theme Monokai Metallian",
   "editor.minimap.enabled": false,
   "editor.occurrencesHighlight": "off",
   "editor.overviewRulerBorder": false,
   "editor.hideCursorInOverviewRuler": true,
   "editor.stickyScroll.enabled": false,
-
-  // Убрать полный путь к файлу сверху
-  "breadcrumbs.enabled": false,
-
-  // Установить дефолтный размер для редактора
-  "window.zoomLevel": 2,
-
-  // Настройка курсора
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.cursorBlinking": "solid",
+  "editor.guides.indentation": false,
+  "editor.renderLineHighlight": "none",
 
   // Плавность
   "editor.smoothScrolling": true,
   "terminal.integrated.smoothScrolling": true,
   "workbench.list.smoothScrolling": true,
 
-  // Отключаем панель управления окном
-  "chat.commandCenter.enabled": false,
+  // Форматирование при сохранении и вставке
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+
+  // Тема и иконки
+  "workbench.colorTheme": "Bearded Theme Monokai Metallian",
+  "workbench.iconTheme": "bearded-icons",
+
+  // Дерево файлов
+  "workbench.tree.indent": 14,
+  "workbench.tree.enableStickyScroll": false,
+
+  // Стартовый экран и подсказки
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+
+  // Окно и панели workbench
+  "window.zoomLevel": 1,
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
   "window.titleBarStyle": "native",
   "window.menuBarVisibility": "toggle",
 
-  // Настройка плагина todo
-  "todohighlight.isEnable": true,
+  // Хлебные крошки
+  "breadcrumbs.enabled": false,
 
-  // По дефолту открывать пустую страницу
-  "workbench.startupEditor": "none",
-
-  // Установить длину одного tab
-  "editor.tabSize": 2,
+  // Проводник: подтверждения
+  "explorer.confirmDragAndDrop": true,
+  "explorer.confirmDelete": true,
 
   // Добавлять одну пустую строку в конец файла чтобы избежать ошибоки
   "files.insertFinalNewline": true,
-
-  // Отключаем окно с помощью для новичков
-  "workbench.tips.enabled": false,
-
-  // Отключаем прилипание заголовка в деревьях
-  "workbench.tree.enableStickyScroll": false,
-
-  // Всегда использовать те отступы, которые заданы вручную (tabSize, insertSpaces и т.п.), а не угадывать.
-  "editor.detectIndentation": false,
-
-  // Отключает вертикальные линии отступов в редакторе
-  "editor.guides.indentation": false,
-
-  // Отключает подсветку активной строки
-  "editor.renderLineHighlight": "none",
-
   // Автосохранение файлов через короткую паузу после редактирования
   "files.autoSave": "afterDelay",
 
-  // Форматирование файлов
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-
-  // Отключает автообновления
+  // Расширения и обновления
+  "extensions.ignoreRecommendations": true,
   "update.mode": "none",
 
-  // Отключает всплывающие предложения установить расширения
-  "extensions.ignoreRecommendations": true,
-
-  // Отключает copilot
-  "chat.disableAIFeatures": true,
-
-  // Prettier
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-  },
-  
-  "python.analysis.typeCheckingMode": "basic",
+  // Плагин todo highlight
+  "todohighlight.isEnable": true,
 }
