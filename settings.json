@@ -1,68 +1,32 @@
 {
-  // Шрифт и курсор
   "editor.fontFamily": "'FiraCode Nerd Font', 'bold', bold",
   "editor.fontSize": 14,
-  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.multiCursorModifier": "alt",
   "editor.cursorBlinking": "solid",
-
-  // Табы и отступы
+  "editor.wordWrap": "bounded",
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
-
-  // Внешний вид редактора (миникарта, линейки, скролл)
   "editor.scrollbar.horizontal": "hidden",
   "editor.minimap.enabled": false,
-  "editor.occurrencesHighlight": "off",
   "editor.overviewRulerBorder": false,
   "editor.hideCursorInOverviewRuler": true,
-  "editor.stickyScroll.enabled": false,
   "editor.guides.indentation": false,
   "editor.renderLineHighlight": "none",
-
-  // Плавность
   "editor.smoothScrolling": true,
   "terminal.integrated.smoothScrolling": true,
   "workbench.list.smoothScrolling": true,
-
-  // Форматирование при сохранении и вставке
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
-
-  // Тема и иконки
   "workbench.colorTheme": "Bearded Theme Monokai Metallian",
   "workbench.iconTheme": "bearded-icons",
-
-  // Дерево файлов
   "workbench.tree.indent": 14,
   "workbench.tree.enableStickyScroll": false,
-
-  // Стартовый экран и подсказки
-  "workbench.startupEditor": "none",
-  "workbench.tips.enabled": false,
-
-  // Окно и панели workbench
-  "window.zoomLevel": 1,
-  "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false,
-  "window.titleBarStyle": "native",
-  "window.menuBarVisibility": "toggle",
-
-  // Хлебные крошки
+  "window.zoomLevel": 0,
   "breadcrumbs.enabled": false,
-
-  // Проводник: подтверждения
   "explorer.confirmDragAndDrop": true,
   "explorer.confirmDelete": true,
-
-  // Добавлять одну пустую строку в конец файла чтобы избежать ошибоки
   "files.insertFinalNewline": true,
-  // Автосохранение файлов через короткую паузу после редактирования
   "files.autoSave": "afterDelay",
-
-  // Расширения и обновления
-  "extensions.ignoreRecommendations": true,
-  "update.mode": "none",
-
-  // Плагин todo highlight
   "todohighlight.isEnable": true,
+  "python.languageServer": "Pylance"
 }
